@@ -1,0 +1,155 @@
+%\documentclass[12pt]{article}
+\documentclass[12pt]{dallasLab}
+
+\usepackage{geometry}
+\geometry{a4paper}
+
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{authblk}
+
+
+\title{Title}
+
+\author[a,*]{Tad A Dallas}
+\author[b]{}
+
+\affil[a]{Centre for Ecological Change, University of Helsinki, P.O. Box 65, 00014 University of Helsinki, Finland}
+\affil[b]{}
+
+
+\renewcommand\Authands{ and }
+\date{ \small *Corresponding author: tad.a.dallas@gmail.com}
+
+\citation{Dallas et al. 20xx. Title. Journal}
+
+
+\begin{abstract}
+
+Abstract text.
+
+\end{abstract}
+
+
+
+\begin{document}
+
+\maketitle
+
+\bigskip
+
+\noindent \textbf{Running title}:  \\
+
+\noindent \textbf{Author contributions}:  \\
+
+\noindent \textbf{Acknowledgements}:
+
+\noindent \textbf{Data accessibility}: $R$ code is available on figshare at \\\texttt{https://doi.org/}. \\
+
+\noindent \textbf{Conflict of interest}: The authors have no conflicts of interest to declare.\\
+
+\noindent \textbf{Keywords}:  
+
+
+
+
+
+
+
+\clearpage
+\section*{Introduction}
+\linenumbers
+
+
+\cite{dallas2014}
+
+
+\section*{Methods}
+
+
+
+
+\section*{Results}
+
+
+
+\section*{Discussion}
+
+
+
+
+
+
+
+
+\newpage
+\bibliography{var}
+\bibliographystyle{oikos}
+
+
+
+\section*{Tables}
+
+
+
+
+\section*{Figures}
+
+\newpage
+\begin{figure}[h!]
+  \begin{center}
+    \caption{}
+    %\includegraphics[width=0.6\textwidth]{../Figures/  .pdf}
+    \label{fig:}
+  \end{center}
+\end{figure}
+
+
+
+
+
+
+
+
+
+%--- Supplement ---
+
+\clearpage
+\newcommand{\beginsupplement}{%
+        \setcounter{page}{1}
+        \setcounter{table}{0}
+        \renewcommand{\thetable}{S\arabic{table}}%
+        \setcounter{figure}{0}
+        \renewcommand{\thefigure}{S\arabic{figure}}%
+        }
+
+
+\section*{Supplemental Material}
+
+{\large Paper title} \\
+
+
+\noindent Tad Dallas$^{a,*}$,  \\
+
+\noindent $^{a}$ Centre for Ecological Change, University of Helsinki, Helsinki, Finland \\
+
+\noindent $^{*}$ tad.a.dallas@gmail.com \\
+
+
+\beginsupplement
+
+
+
+
+
+
+
+
+
+
+\end{document}
