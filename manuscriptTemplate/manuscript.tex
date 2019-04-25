@@ -1,4 +1,3 @@
-%\documentclass[12pt]{article}
 \documentclass[12pt]{dallasLab}
 
 \usepackage{geometry}
@@ -12,21 +11,28 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{authblk}
+\usepackage{setspace}
+
+
 
 
 \title{Title}
 
-\author[a,*]{Tad A Dallas}
-\author[b]{}
+\author[a,*]{FirstName LastName}
+\author[b]{FirstName LastName}
 
-\affil[a]{Centre for Ecological Change, University of Helsinki, P.O. Box 65, 00014 University of Helsinki, Finland}
-\affil[b]{}
+\affil[a]{Place 1}
+\affil[b]{Place 2}
 
 
 \renewcommand\Authands{ and }
-\date{ \small *Corresponding author: tad.a.dallas@gmail.com}
+\date{ \small *Corresponding author: name@lsu.edu}
 
-\citation{Dallas et al. 20xx. Title. Journal}
+\citation{LastName et al. 20xx. Title. Journal}
+
+
+
+
 
 
 \begin{abstract}
@@ -37,11 +43,17 @@ Abstract text.
 
 
 
+
+
+
 \begin{document}
 
 \maketitle
 
-\bigskip
+
+
+\clearpage 
+\setstretch{1.25}
 
 \noindent \textbf{Running title}:  \\
 
@@ -53,37 +65,79 @@ Abstract text.
 
 \noindent \textbf{Conflict of interest}: The authors have no conflicts of interest to declare.\\
 
-\noindent \textbf{Keywords}:  
-
-
+\noindent \textbf{Keywords}:  \\
 
 
 
 
 
 \clearpage
+\setstretch{1.5}
+
+%-----------------------
 \section*{Introduction}
+
 \linenumbers
 
 
-\cite{dallas2014}
+
+\paragraph*{}
 
 
+
+
+
+\paragraph*{}
+
+
+
+
+\paragraph*{}
+
+
+
+
+
+
+
+
+
+%-----------------------
 \section*{Methods}
 
+\paragraph*{}
 
 
 
+
+
+
+%-----------------------
 \section*{Results}
 
+\paragraph*{}
 
 
+
+
+
+
+
+
+
+%-----------------------
 \section*{Discussion}
 
 
+\paragraph*{}
 
 
 
+\paragraph*{}
+
+
+
+\paragraph*{}
 
 
 
@@ -104,7 +158,7 @@ Abstract text.
 \begin{figure}[h!]
   \begin{center}
     \caption{}
-    %\includegraphics[width=0.6\textwidth]{../Figures/  .pdf}
+    %\includegraphics[width=0.6\textwidth]{Figures/  .pdf}
     \label{fig:}
   \end{center}
 \end{figure}
@@ -134,11 +188,11 @@ Abstract text.
 {\large Paper title} \\
 
 
-\noindent Tad Dallas$^{a,*}$,  \\
+\noindent FirstName LastName$^{a,*}$ and  FirstName LastName$^{b}$  \\
 
-\noindent $^{a}$ Centre for Ecological Change, University of Helsinki, Helsinki, Finland \\
-
-\noindent $^{*}$ tad.a.dallas@gmail.com \\
+\noindent $^{a}$ place 1
+\noindent $^{b}$ place 2
+\noindent $^{*}$ name@lsu.edu \\
 
 
 \beginsupplement

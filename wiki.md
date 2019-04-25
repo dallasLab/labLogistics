@@ -2,7 +2,11 @@
 
 This document is meant to familiarize new lab members to how we **typically** do science in the lab, and to allow the sharing of techniques and softwares among lab members that may enhance our ability to do science. 
 
-First, I will start with the current approach to doing science in the Dallas lab. 
+
+First, I will start with the current approach to doing science in the Dallas lab. This is not meant to be the absolute only way to do science in the lab, and members are encouraged to structure projects in a way that maximizes their own sanity. 
+
+
+
 
 
 ## maintaining a lab notebook
@@ -27,24 +31,30 @@ Structuring a project in this fashion from day 1 allows the project to immediate
 
 
 
+
+
 ## computational tools
 
-**This is not prescriptive**. If lab members want to use different tools than listed here, that is completely fine. Different tools and workflows work for different people. However, the end goal is to utilize some combination of these tools to create a clear workflow for science in the Dallas lab. Some relevant reading includes [this](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745) and [this](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003506).
+While everyone in the lab will maintain a lab notebook, the computational tools labmembers use will likely be pretty diverse, so this list **is not prescriptive**. If lab members want to use different tools than listed here, that is completely fine. Different tools and workflows work for different people. However, the end goal is to utilize some combination of these tools to create a clear workflow for science in the Dallas lab. Some relevant reading includes [this](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745) and [this](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003506).
 
 Below is a list of computational tools that I would like lab members to be cognizant of. 
 
 
-+ `linux`: all lab computers will run the most current long term stable (LTS) release of Ubuntu. At least some machines will also be able to dual boot with Windows. The use of Ubuntu in the lab allows access to unix shell scripting [training](https://swcarpentry.github.io/shell-novice/), the use of `make` [training](http://swcarpentry.github.io/make-novice/), among other benefits. 
++ `linux`: all lab computers will run the most current long term stable (LTS) release of Ubuntu. At least some machines will also be able to dual boot with Windows. 
 
-+ `git`, `Github`: version control is an important part of science. It allows real time progress updates, issue tracking, and version control. There are numerous guides to beginning to learn how to use git with Github [training](https://swcarpentry.github.io/git-novice-es/) and [further training](https://guides.github.com/activities/hello-world/). 
++ `git` and `Github`: version control is an important part of science. It allows real time progress updates, issue tracking, and version control. There are numerous guides to beginning to learn how to use git with Github [training](https://swcarpentry.github.io/git-novice-es/) and [further training](https://guides.github.com/activities/hello-world/). 
 
 + `R`: lab members are expected to be familiar with the R programming environment. This is not to say you can't program in other languages (e.g., Python or Julia are good alternatives), but the most overlap with other lab members will likely come through the use of R. I don't care if you want to use base or the fanciest new package to hit the tidyverse, but having a common computational language among lab members has clear benefits [training](http://swcarpentry.github.io/r-novice-inflammation/)
 
-+ `(R) markdown`: markdown is a markup language used to create this file. R markdown allows embedding R code within markdown documents, creating a document that can be compiled to contain both explanatory text and the results of analyses. [markdown tutorial](https://www.markdowntutorial.com/), [R markdown tutorial]()
++ `(R) markdown`: markdown is a markup language used to create this file. R markdown allows embedding R code within markdown documents, creating a document that can be compiled to contain both explanatory text and the results of analyses. [markdown tutorial](https://www.markdowntutorial.com/), [R markdown tutorial](https://rmarkdown.rstudio.com/lesson-1.html)
 
-+ `LaTeX`: LaTeX is a typesetting language useful for formatting manuscripts, presentations, and posters. I have found it incredibly useful, though sometimes unfuriating. Templates for Dallas lab presentations/posters/academic articles are available within this repo. Lab members should feel free to use and modify these templates, or to not use them. [training](https://www.latex-tutorial.com/tutorials/)
++ `LaTeX`: LaTeX is a typesetting language useful for formatting manuscripts, presentations, and posters. I have found it incredibly useful, though sometimes unfuriating. Templates for Dallas lab presentations/posters/academic articles are available within this repo. Lab members should feel free to use and modify these templates, or to not use them (but hopefully to use them). [training](https://www.latex-tutorial.com/tutorials/)
 
-+ ``:
+
+
+
+
+
 
 
 
@@ -54,14 +64,20 @@ Below is a list of computational tools that I would like lab members to be cogni
 
 + `emacs`: text editor that is pretty useful. If you want to be amused, Google 'emacs vs. vim' and read the degree of argument between camps. Perhaps a bit silly.
 
-+ `mutt`: command line email client. Pretty useful if you're into it. 
-
-+ ``:
-
-+ ``:
++ `unix shell`: the shell environment makes most of the above resources easier to use, and to not require a GUI (e.g., processing LaTeX files can be done from the terminal, or from user interfaces). [training](https://swcarpentry.github.io/shell-novice/)
 
 
 
 
 
+
+Lab members should feel free to suggest edits to this. I'm always trying to learn new software! :)
+
+
+
+
+
+---
+
+> The material in this document is inspired by and derived from "[Bahlai Lab Project Management](https://github.com/BahlaiLab/Policies/blob/master/Code_of_conduct.md)" by Dr. Christie Bahlai and the Bahlai lab team, "[Whitaker Lab Project Management](https://github.com/WhitakerLab/WhitakerLabProjectManagement)" by Dr. Kirstie Whitaker and the Whitaker Lab team, used under CC BY 4.0, and Tim Poisot's Lab Code of conduct, used under CC BY 4.0.
 
