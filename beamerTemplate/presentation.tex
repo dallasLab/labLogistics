@@ -1,0 +1,193 @@
+\documentclass[12pt]{beamer}
+\usetheme{DallasLab}
+%\hypersetup{pdfpagemode=FullScreen}
+
+\setbeamertemplate{footline}[text line]{} % makes the footer EMPTY
+\useoutertheme[subsection=false]{smoothbars}
+
+\usepackage{subfigure}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage[all,knot]{xy}
+\usepackage{url}
+\usepackage{multimedia}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{tabularx}
+
+\usefonttheme{professionalfonts}
+\usefonttheme{serif}
+\usepackage{fontspec}
+\setmainfont{Ubuntu}
+
+
+\newcommand\Wider[2][3em]{%
+\makebox[\linewidth][c]{%
+  \begin{minipage}{\dimexpr\textwidth+#1\relax}
+  \raggedright#2
+  \end{minipage}%
+  }%
+}
+
+
+
+\title{\large Title of presentation }
+
+\subtitle{\normalsize FirstName LastName \\ Other co-author \\ Another co-author }
+
+\date{year?}
+
+
+
+
+
+
+
+\begin{document}
+
+\maketitle
+
+
+\begin{frame}
+	\vspace{0.75cm}
+  \begin{flushright}
+	{\Large \textcolor{boss3}{How does stochasticity influence \\ competition between species?}} 
+  \end{flushright}
+\end{frame}
+
+
+
+
+
+
+\begin{frame}
+  \begin{center}
+	  \includegraphics[width=0.85\textwidth]{figs/email.png} 
+	\end{center}
+\end{frame}
+
+
+
+
+
+
+\begin{frame}
+
+  \begin{itemize}
+    \item \textcolor{boss1}{List element 1}
+
+    \item \textcolor{boss2}{List element 2}
+
+    \item \textcolor{boss3}{List element 3}
+
+    \item \textcolor{boss4}{List element 4}
+
+    \item \textcolor{boss5}{List element 5}
+
+  \end{itemize}
+\end{frame}
+
+
+
+
+
+
+
+
+
+\begin{frame}
+
+	\begin{center}
+	{ \huge \textcolor{boss5}{Equations!!!}}
+	\end{center}
+
+\Large
+	\begin{equation}
+	S_{t+1} = S_{t} \ R_{S} \ e^{- (\alpha_{SS}S_{t} \ + \ \alpha_{SF}F_{t})}
+	\end{equation}
+
+	\begin{equation}
+	F_{t+1} = F_{t} \ R_{F} \ e^{- (\alpha_{FF}F_{t} \ + \ \alpha_{FS}S_{t})}
+	\end{equation}
+
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{frame}
+
+	\begin{flushright}
+	\Large \textcolor{boss2}{Texty text text text.} 
+	\end{flushright}
+\end{frame}
+
+
+
+
+\begin{frame}
+
+{\large \textcolor{boss5}{Acknowledgements}}
+
+  \begin{itemize}
+    \item National Science Foundation
+    \item School
+    \item People
+  \end{itemize}
+
+  \begin{flushright}
+    \begin{tabular}{cl}
+    \includegraphics[width=0.75cm]{figs/email.png} & \texttt{email@school.edu} \\
+    \includegraphics[width=1.5cm]{figs/octocat.png} & \texttt{github username} \\
+    \includegraphics[width=0.75cm]{figs/user.png} & \texttt{website}\\
+    \includegraphics[width=0.75cm]{figs/twitter.png} & \texttt{@twitterHandle} \\
+   \end{tabular}
+  \end{flushright}
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% -----------Supplemental slides----------------
+
+
+
+\begin{frame}
+
+
+\end{frame}
+
+
+
+
+
+\end{document}

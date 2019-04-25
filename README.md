@@ -7,8 +7,9 @@ This repository contains information pertinent to the folks working in the Dalla
 Files containing relevant lab philosophy and mentoring statements are on the top-leve (`mentoring`, `codeOfConduct`, and `wiki`). 
 
 
-`manuscriptTemplate` is a useful (or not?) manuscript template for writing manuscripts using LaTeX. 
+`manuscriptTemplate` is a useful (or not?) template for writing manuscripts using LaTeX. 
 
+`beamerTemplate` is a useful (or not?) template for writing presentations using LaTeX. 
 
 
 
