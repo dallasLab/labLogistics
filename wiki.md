@@ -29,11 +29,26 @@ All members of the Dallas lab will be issued a lab notebook that they are respon
 Structuring a project in this fashion from day 1 allows the project to immediately take shape, and encourages the proper documentation of research flow. That is, I expect that the manuscript files will begin more like a protocol. The methods section will contain all the relevant information to reproduce the experiment, and the analysis files will contain the code mirroring the methods. 
 
 
+## collaboration
+
+I do not need to be coauthor on every manuscript coming out of the lab, and I encourage students to research and publish independently of me. That being said, research using lab resources may be more suitable for my coauthorship, and I am happy to actively contribute to the project, or to allow the student to work independently. I also encourage students to collaborate with other scientists within LSU and outside. However, new collaborations should be discussed with me before students initiate them (if possible). 
+
 
 
 
 
 ## computational tools
+
+This will change as machines get added to the lab. The current naming scheme is based on Dante's nine circles of hell. This is not to say that the lab culture is anything resembling any circle of hell. I just liked this naming scheme, but am happy to change it if anybody is uncomfortable (or I may change it if I can think of something better). 
+
+
++ `limbo`: Lenovo ThinkPad E590 (8gb RAM laptop for travel)
++ `lust`: Lenovo Thinkstation  (64gb RAM machine in 382)
++ ``:
+
+
+
+
 
 While everyone in the lab will maintain a lab notebook, the computational tools labmembers use will likely be pretty diverse, so this list **is not prescriptive**. If lab members want to use different tools than listed here, that is completely fine. Different tools and workflows work for different people. However, the end goal is to utilize some combination of these tools to create a clear workflow for science in the Dallas lab. Some relevant reading includes [this](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745) and [this](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003506).
 
