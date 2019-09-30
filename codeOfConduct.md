@@ -2,7 +2,9 @@
 
 This is a working document created to establish best practices for lab interactions and culture. The goal, as I see it, is to clearly lay out my expectations for behavior within the lab in an effort to encourage an inclusive lab culture. 
 
+
 If you have suggestions for this document -- **whether you are inside the lab or not** -- feel free to suggest them by filing an issue or by issuing a pull request. Much of this document is based on other documents (see footer for sources). 
+
 
 Science is tough, and it's easy to get down about the barrage of rejections or challenges. However, it's also pretty great, and the list below is designed to make sure it has the potential to be great for everyone. 
 
@@ -66,7 +68,7 @@ The lab space belongs to everyone. I expect that lab members will respect the sp
 + lab notebook 
 + computer 
 + desk space
-+ Spotify premium account
+
 
 This list is not exhaustive, and more information is available in the `mentoring.md` file in this repo.
 

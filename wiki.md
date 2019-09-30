@@ -39,14 +39,20 @@ I do not need to be coauthor on every manuscript coming out of the lab, and I en
 
 ## computational tools
 
-This will change as machines get added to the lab. The current naming scheme is based on Dante's nine circles of hell. This is not to say that the lab culture is anything resembling any circle of hell. I just liked this naming scheme, but am happy to change it if anybody is uncomfortable (or I may change it if I can think of something better). 
+This will change as machines get added to the lab. The current naming scheme is generally based on authors, but with the high memory machines named `beast` and then a number (currently we only have `beast1`). This doesn't include the workstations for students, which are 8gb Dell Optiplex 5020(maybe?). 
+
++ `poe`: Lenovo ThinkPad E590 (8gb RAM laptop for travel)
++ `steinbeck`: Lenovo Thinkstation  (16gb RAM machine in A343)
++ `beast1`: Dell Precision 3630 (64gb machine in 382)
 
 
-+ `limbo`: Lenovo ThinkPad E590 (8gb RAM laptop for travel)
-+ `lust`: Lenovo Thinkstation  (64gb RAM machine in 382)
-+ ``:
+We also have lab access to the HPC cluster computing resources. We have the following allocations:
 
++ `hpc_fugazi`: 50k SU's* on `smic`
++ 
++ 
 
+* 1 SU is one hour of computing time on a single core, so if you request 24 cores, each hour of computing is 24 SU's. 
 
 
 
@@ -79,9 +85,7 @@ Below is a list of computational tools that I would like lab members to be cogni
 
 + `emacs`: text editor that is pretty useful. If you want to be amused, Google 'emacs vs. vim' and read the degree of argument between camps. Perhaps a bit silly.
 
-+ `unix shell`: the shell environment makes most of the above resources easier to use, and to not require a GUI (e.g., processing LaTeX files can be done from the terminal, or from user interfaces). [training](https://swcarpentry.github.io/shell-novice/)
-
-
++ `unix shell`: the shell environment makes most of the above resources easier to use, and to not require a GUI (e.g., processing LaTeX files can be done from the terminal, or from user interfaces). Version control with git can be done through the terminal, as well as batch code runs, compilation of manuscripts and analyses using `make`, and much much more. Plus, in order to submit jobs to the cluster, you'll need to use the terminal. [training](https://swcarpentry.github.io/shell-novice/)
 
 
 

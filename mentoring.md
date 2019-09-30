@@ -35,6 +35,12 @@ There is also some information specific to the Biological Sciences department [a
 
 
 
+## Other resources
+
++ LSU student health center (https://www.lsu.edu/shc/)
++ LGBTQ+ Project at LSU (https://www.lsu.edu/lgbtqproject/)
++ Tiger Trails bus information (https://www.lsu.edu/parking/transportation/tigertrails.php)
++ 
 
 
 
