@@ -1,0 +1,205 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[paper=a4paper,left=25mm,right=25mm,top=25mm,bottom=25mm]{geometry}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{setspace}
+\setcounter{secnumdepth}{-1}
+
+
+
+\author{Author}
+
+\title{Proposed title of project}
+
+\date{}
+
+
+
+\begin{document}
+
+
+\setcounter{page}{1}
+\maketitle
+
+
+
+\setstretch{1.5}
+
+
+
+
+\subsection*{Introduction}
+
+Important information about the project, going from general principles to specific questions. Be sure to include citations from previous research \citep{dallas2019}. This will serve as a reminder of why you did the experiment, as well as a good starting point for the introduction of the manuscript. 
+
+
+
+
+
+\paragraph*{}
+More information
+
+
+
+\paragraph*{}
+More information
+
+
+
+
+
+
+
+
+
+\subsubsection*{Specific questions}
+
+\begin{enumerate}
+  \item Question 1
+  \item Question 2
+  \item ...
+  \item ...
+  \item Question $n$
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+\section*{Methods}
+
+  \subsection*{Background of system}
+Where's the data? Is this an entirely computational project? Start to describe the motivating principles underlying the model or approach chosen. 
+
+
+
+
+  \subsection*{Experimental design}
+Provide enough detail where I can clearly follow what you want to do, and can replicate it. I expect sample sizes, tables of key parameters, and a complete picture of all the knobs, dials, and sliders being manipulated to address the main questions as outlined above.
+
+
+
+
+\subsection*{Analysis}
+
+This is the final stage of the methods, describing how you will go from the experimental design above to results. What analyses will you use to test for differences? Will you focus solely on predictive accuracy or model fit, forecasts to other data? Each analysis described here should directly address one of the questions as outlined above. 
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection*{Checklist}
+ \begin{itemize}
+   \item Assemble materials (Date: \hspace{1cm} Initials: \hspace{1cm})
+   \item Experiment setup (Date: \hspace{1cm} Initials: \hspace{1cm})
+   \item Experiment complete (Date: \hspace{1cm} Initials: \hspace{1cm})
+   \item Data entry (Date: \hspace{1cm} Initials: \hspace{1cm}  Github repo: \hspace{5cm} )
+   \item Data analysis (Date: \hspace{1cm} Initials: \hspace{1cm})
+   \item Final report (Date: \hspace{1cm} Initials: \hspace{1cm})
+ \end{itemize}
+
+
+
+
+
+
+\subsection*{Materials and Supplies}
+What do you need? The best designed experiment can fail horribly if the details of how the experiment will be run aren't well developed.\\ 
+
+For experimental projects, this may look like ...
+
+ \begin{itemize}
+  \item Culture media (xx grams)
+  \item Plates (x 100)
+  \item Species (x 1000 individuals of \textit{species A})
+ \end{itemize}
+
+
+For computational projects, this may look like ...
+
+ \begin{itemize}
+  \item Cluster access (estimate of SU's)
+  \item Data sources (this should also include notes on data re-use ability, if the data are open, can the data be shared, are the data dynamic or static?
+  \item 
+ \end{itemize}
+
+
+
+
+
+
+\subsection*{Logistical details}
+
+This section is designed to pre-emptively get at stumbling blocks that may appear in the experiment. For example, in my previous experiments, I put information on experimental labeling and monitoring here. An example is given below. Note that I provide enough information where anybody reading this should be able to label patches, and then point to the place where the protocol and data sheets are stored. 
+
+
+
+
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+Clearly label each patch with:
+
+\begin{quote}
+  \texttt{CS.[abundance]-CF.[abundance]}\\
+  \texttt{[generation]}\\
+  \texttt{[landscape number].[patch number]}
+\end{quote}
+
+Patch numbers are either 1 or 2. Abundance refers to the initial abundance treatment (either 0,20,40 or 80). \\
+
+An example label for patch 2 from landscape number 4 from the treatment consisting of 20 \textit{T. casteneum} and 40 \textit{T. confusum} at the first generation of the experiment is:
+
+\begin{quote}
+  \texttt{CS.20-CF.40}\\
+  \texttt{1} \\
+  \texttt{4.2}
+\end{quote}
+
+
+Experimental protocol and data sheets are available on the \texttt{Beetles} drive in the \texttt{checkerboard} folder.
+}
+}
+
+
+
+
+\newpage
+
+
+
+\subsubsection*{Conceptual figure}
+
+Conceptual figures are super important. Designing a conceptual figure should start at protocol stage, and will eventually be used in the manuscript. The conceptual figure can describe the experimental setup, the expected relationships between variables, or the flow of experimental design.
+
+\begin{figure}
+%  \includegraphics[width=\textwidth]{}
+  \caption{ Conceptual figure of experimental setup.}
+  \label{fig:concept}
+\end{figure}
+
+
+
+
+\clearpage
+\bibliography{bib}
+\bibliographystyle{plain}
+
+
+
+\end{document}
