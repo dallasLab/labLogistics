@@ -42,8 +42,8 @@ I do not need to be coauthor on every manuscript coming out of the lab, and I en
 This will change as machines get added to the lab. The current naming scheme is generally based on authors, but with the high memory machines named `beast` and then a number (currently we only have `beast1`). This doesn't include the workstations for students, which are 8gb Dell Optiplex 5020(maybe?). 
 
 + `poe`: Lenovo ThinkPad E590 (8gb RAM laptop for travel)
-+ `steinbeck`: Lenovo Thinkstation  (16gb RAM machine in A343)
 + `beast1`: Dell Precision 3630 (64gb machine in 382)
++ `beast2`: Dell Precision 3630 (64gb machine in 382)
 
 
 We also have lab access to the HPC cluster computing resources. We have the following allocations:
@@ -53,7 +53,6 @@ We also have lab access to the HPC cluster computing resources. We have the foll
 + 
 
 * 1 SU is one hour of computing time on a single core, so if you request 24 cores, each hour of computing is 24 SU's. 
-
 
 
 While everyone in the lab will maintain a lab notebook, the computational tools labmembers use will likely be pretty diverse, so this list **is not prescriptive**. If lab members want to use different tools than listed here, that is completely fine. Different tools and workflows work for different people. However, the end goal is to utilize some combination of these tools to create a clear workflow for science in the Dallas lab. Some relevant reading includes [this](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745) and [this](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003506).
