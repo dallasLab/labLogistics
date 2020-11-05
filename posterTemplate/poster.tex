@@ -1,0 +1,175 @@
+\documentclass[final,hyperref={pdfpagelabels=false}]{beamer}
+
+%%% Two different themes. Choose whichever you like. 
+%%% Light is probably better for sake of ink
+
+%\usetheme{DallasDark}
+\usetheme{DallasLight}
+
+
+\usepackage[orientation=portrait,size=a0,scale=1.4]{beamerposter} 
+\usepackage[english]{babel} 
+\usepackage{amsmath,amsthm,amssymb,latexsym}
+
+\usefonttheme{professionalfonts}
+\usefonttheme{serif}
+\usepackage{fontspec}
+\setmainfont{Ubuntu}
+
+\usepackage{booktabs} 
+\usepackage{xcolor}
+\usepackage{fontawesome}
+
+
+
+
+
+\usecaptiontemplate{\small\structure{\insertcaptionname~\insertcaptionnumber: }\insertcaption} 
+\boldmath 
+
+
+\title{\huge Research Title} 
+\author{author name, author name} 
+\institute{University} 
+
+
+% footer text
+\newcommand{\leftfoot}{} 
+\newcommand{\rightfoot}{} 
+
+
+\begin{document}
+
+
+\begin{frame}[t] 
+
+\begin{columns}[t] 
+
+\begin{column}{0.02\textwidth}\end{column} % Empty spacer column
+
+
+
+\begin{column}{0.11\textwidth} % The first column
+	\begin{block}{Contact}
+		
+	\end{block}
+
+
+
+
+	\begin{block}{main points}
+		\begin{itemize}
+			\item 
+			\item sidebar stuff
+			\item sidebar stuff
+		\end{itemize}
+	\end{block}
+
+\end{column}
+
+
+
+\begin{column}{0.02\textwidth}\end{column} % Empty spacer column
+
+
+\begin{column}{0.405\textwidth} % The first column
+
+	\begin{block}{Objectives}
+		\begin{enumerate}
+			\item text text text text text text text text
+			\item text text text text text text text text
+			\item text text text text text text text text
+		\end{enumerate}
+	\end{block}
+
+
+	\begin{block}{Introduction}
+
+		\begin{itemize}
+			\item text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
+		\end{itemize}
+	\end{block}
+
+
+
+	\begin{block}{Methods}
+		\begin{itemize}
+			\item Text text text text
+			\item Text text text text
+			\item Text text text text
+		\end{itemize}
+		Text text text text
+		\begin{itemize}
+			\item Text text text text
+			\item Text text text text
+			\item Text text text text
+		\end{itemize}
+	\end{block}
+
+\end{column} 
+
+
+
+
+
+\begin{column}{0.02\textwidth}\end{column} % Empty spacer column
+
+
+
+\begin{column}{0.405\textwidth} 
+
+
+	\begin{block}{Results: Table}
+
+		\begin{itemize}
+			\item Text Text Text
+		\end{itemize}
+
+		\begin{table}
+			\begin{tabular}{l l l}
+			\toprule
+			\textbf{Treatments} & \textbf{x} & \textbf{y}\\
+			\midrule
+			a & 0.01 & 0.5 \\
+			b & 0.02 & 0.2$^*$ \\
+			c & 0.02 & 0.8 \\
+			\bottomrule
+			\end{tabular}
+		\caption{Table caption}
+		\end{table}
+		   
+	\end{block}
+
+
+
+	\begin{block}{Results}
+		\begin{figure}
+			\includegraphics[width=0.8\linewidth]{figures/placeholder.jpg}
+			\caption{Figure caption}
+		\end{figure}
+	\end{block}
+
+
+	\begin{block}{References}
+		\small{\bibliographystyle{unsrt}
+		\bibliography{sample}}
+	\end{block}
+
+
+
+	\begin{block}{Acknowledgments}
+		\begin{itemize}
+			\item people
+		\end{itemize}
+	\end{block}
+
+
+\end{column} 
+
+
+
+\begin{column}{0.02\textwidth}\end{column} % Empty spacer column
+
+\end{columns} 
+\end{frame} 
+\end{document}
