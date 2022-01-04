@@ -25,11 +25,11 @@ I believe that science is better when it's diverse and inclusive, and that means
 
 ## Graduate student resources 
 
-Please consult the [Graduate School website](https://www.lsu.edu/graduateschool/current-students/student-resources.php) for general information. This site has information on necessary forms, professional development resources, counseling services, and general campus information. 
+Please consult the [Graduate School website](https://sc.edu/study/colleges_schools/graduate_school/index.php) for general information. This site has information on necessary forms, professional development resources, counseling services, and general campus information. 
 
 
 
-There is also some information specific to the Biological Sciences department [available here](https://www.lsu.edu/science/biosci/graduateprogram/graduatestudies.php), including information on [graduate student awards](https://www.lsu.edu/science/biosci/graduateprogram/awards.php).
+There is also some information specific to the Biological Sciences department [available in this graduate manual pdf](https://sc.edu/study/colleges_schools/artsandsciences/biological_sciences/my_biology/forms/eform_documents/2021_graduate_student_handbook.pdf), including tons of silly [forms](https://sc.edu/study/colleges_schools/artsandsciences/biological_sciences/my_biology/forms/index.php).
 
 
 
@@ -37,10 +37,12 @@ There is also some information specific to the Biological Sciences department [a
 
 ## Other resources
 
-+ LSU student health center (https://www.lsu.edu/shc/)
-+ LGBTQ+ Project at LSU (https://www.lsu.edu/lgbtqproject/)
-+ Tiger Trails bus information (https://www.lsu.edu/parking/transportation/tigertrails.php)
-+ 
++ [U of SC health center](https://sc.edu/about/offices_and_divisions/health_services/)
++ [U of SC grad studies helpful links](https://sc.edu/study/colleges_schools/cic/internal/graduate/index.php)
++ [LGBTQ+ @UofSC](https://sc.edu/about/offices_and_divisions/multicultural_student_affairs/lgbtqplus-at-uofsc/index.php)
++ [COMET bus services](https://sc.edu/about/offices_and_divisions/parking/shuttles/index.php)
++ [other random links including maybe some travel grant funding](https://sc.edu/study/colleges_schools/graduate_school/opportunities_support/index.php)
++ [Bio sci](https://sc.edu/study/colleges_schools/artsandsciences/biological_sciences/index.php)
 
 
 
