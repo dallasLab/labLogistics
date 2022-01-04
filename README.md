@@ -1,10 +1,9 @@
 ## labLogistics
 
-This repository contains information pertinent to the folks working in the Dallas lab at Louisiana State University. Much of the material is _borrowed_ from numerous great folks, who are credited at the end of this document, and in documents within this repo. 
+This repository contains information pertinent to the folks working in the Dallas lab at University of South Carolina. Much of the material is _borrowed_ from numerous great folks, who are credited at the end of this document, and in documents within this repo. 
 
 
 Files containing relevant lab philosophy and mentoring statements are on the top-level (`onboarding`, `mentoring`, `codeOfConduct`, and `wiki`). 
-
 
 `manuscriptTemplate` is a useful (or not?) template for writing manuscripts using LaTeX. 
 
