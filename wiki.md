@@ -37,6 +37,8 @@ I do not need to be coauthor on every manuscript coming out of the lab, and I en
 
 
 
+
+
 ## computational tools
 
 This will change as machines get added to the lab. The current naming scheme is generally based on authors, but with the high memory machines named `beast` and then a number (currently we only have `beast1`). This doesn't include the workstations for students, which are 8gb Dell Optiplex 5020(maybe?). 
@@ -69,6 +71,16 @@ Below is a list of computational tools that I would like lab members to be cogni
 + `(R) markdown`: markdown is a markup language used to create this file. R markdown allows embedding R code within markdown documents, creating a document that can be compiled to contain both explanatory text and the results of analyses. [markdown tutorial](https://www.markdowntutorial.com/), [R markdown tutorial](https://rmarkdown.rstudio.com/lesson-1.html)
 
 + `LaTeX`: LaTeX is a typesetting language useful for formatting manuscripts, presentations, and posters. I have found it incredibly useful, though sometimes unfuriating. Templates for Dallas lab presentations/posters/academic articles are available within this repo. Lab members should feel free to use and modify these templates, or to not use them (but hopefully to use them). [training](https://www.latex-tutorial.com/tutorials/)
+
+
+
+
+
+## keeping things up-to-date 
+
+`presentations`: whenever you give a presentation (which I encourage you to do and will support your travel and conference costs for at least 1 conference per year), update the presentations file in the `labMeetingMinutes` repo (https://github.com/dallasLab/labMeetingNotes/blob/master/presentations.md). This is private, so only Dallas lab members will be able to see it. 
+
+`publications`: get a Google scholar and/or a personal website. Both are pretty much essential as networking tools and allow you to publicize your research. 
 
 
 
