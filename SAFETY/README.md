@@ -11,3 +11,5 @@ This repository contains information relevant to the safety guidelines in the la
 `labIncidentReportForm.docx` needs to be filled out in the event of a lab incident. 
 
 `emergencyNumbers.docx` contains all the emergency numbers in the event of an emergency.
+
+`doorPlacard` is the lab door sign that tells everyone that we do not do anything with hazardous chemicals. We play with beetles and stuff. 
