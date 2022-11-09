@@ -43,19 +43,27 @@ I do not need to be coauthor on every manuscript coming out of the lab, and I en
 
 This will change as machines get added to the lab. The current naming scheme is generally based on authors, but with the high memory machines named `beast` and then a number (currently we only have `beast1`). This doesn't include the workstations for students, which are 8gb Dell Optiplex 5020(maybe?). 
 
-+ `poe`: Lenovo ThinkPad E590 (8gb RAM laptop for travel)
-+ `beast1`: Dell Precision 3630 (64gb machine in 382)
-+ `beast2`: Dell Precision 3630 (64gb machine in 382)
+
+| codeName  | make & model  | hard drive (gb) | ram (gb)  | cpu cores | OS |
+| --- |---|---|---|---|---|
+| poe | Lenovo ThinkPad E590  | 500  | 8  | 4 | Ubuntu 22.04 |
+| beast1  | Dell Precision 3630 | 1000  | 64 | 8 | Ubuntu 22.04  |
+| beast2  | Dell Precision 3630 | 1000  | 64 | 8 | Ubuntu 22.04  |
+| rainbow1  | custom  | 500  | 128  | 16 |  Ubuntu 21.04  |
+| rainbow2 | custom  | 500  | 128  | 16 | Ubuntu 21.04  |
+| office  | custom  | 1000  | 128  | 24  | Ubuntu 22.04  |
+| icebox  | custom  | 1000 | 128  | 16 | Ubuntu 22.04  |
+| grandpa  | super micro 733TQ chassis with old Xeon board  | 2000 (RAID5)  | 12  | 8 |  Ubuntu 22.04  |
 
 
-We also have lab access to the HPC cluster computing resources. We have the following allocations:
+We also have lab access to the HPC cluster computing resources. Information on [HPC](https://uofsc-rc.github.io/sys-tutorial/getting-started), and [account sign up](https://sc.edu/about/offices_and_divisions/division_of_information_technology/rc/account_request/index.php)
 
-+ `hpc_fugazi`: 50k SU's* on `smic`
-+ 
-+ 
 
-* 1 SU is one hour of computing time on a single core, so if you request 24 cores, each hour of computing is 24 SU's. 
 
+
+
+
+## software 
 
 While everyone in the lab will maintain a lab notebook, the computational tools labmembers use will likely be pretty diverse, so this list **is not prescriptive**. If lab members want to use different tools than listed here, that is completely fine. Different tools and workflows work for different people. However, the end goal is to utilize some combination of these tools to create a clear workflow for science in the Dallas lab. Some relevant reading includes [this](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745) and [this](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003506).
 
