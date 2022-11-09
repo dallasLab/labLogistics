@@ -49,6 +49,7 @@ This will change as machines get added to the lab. The current naming scheme is 
 | poe | Lenovo ThinkPad E590  | 500  | 8  | 4 | Ubuntu 22.04 |
 | beast1  | Dell Precision 3630 | 1000  | 64 | 8 | Ubuntu 22.04  |
 | beast2  | Dell Precision 3630 | 1000  | 64 | 8 | Ubuntu 22.04  |
+| beast3  | Lenovo P520  | 1000  | 8 | 8 | Ubuntu 21.04  |
 | rainbow1  | [custom](https://pcpartpicker.com/user/taddallas/saved/#view=FptTYJ)  | 500  | 128  | 16 |  Ubuntu 21.04  |
 | rainbow2 | [custom](https://pcpartpicker.com/user/taddallas/saved/#view=FptTYJ)  | 500  | 128  | 16 | Ubuntu 21.04  |
 | office  | custom  | 1000  | 128  | 24  | Ubuntu 22.04  |
