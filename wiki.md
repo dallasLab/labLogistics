@@ -7,6 +7,11 @@ First, I will start with the current approach to doing science in the Dallas lab
 
 
 
+## required coursework 
+
+There are no required courses for graduate students. Students with a masters need 30 hours, and students without need 60 hours to graduate. Many of these can be research hours (Biol 799) with at least 12 of those hours as dissertation prep (Biol 899). I do _strongly insist_ that students in the lab take some training in mathematical statistics (Stat 511-513). Which of these students take will be discussed with me, but both Biol 511 and 512 are pretty important, as Biol 511 focuses on probability theory and Biol 512 gets more into the math stats of it (joint distributions, biased/unbiased estimates, moment generating functions, etc.). 
+
+
 
 
 ## maintaining a lab notebook
@@ -26,12 +31,16 @@ All members of the Dallas lab will be issued a lab notebook that they are respon
 + a Manuscript folder: a folder containing the relevant manuscript files. 
 
 
+> An example template for a project is [provided here](https://github.com/dallasLab/project-template)
+
+
+
 Structuring a project in this fashion from day 1 allows the project to immediately take shape, and encourages the proper documentation of research flow. That is, I expect that the manuscript files will begin more like a protocol. The methods section will contain all the relevant information to reproduce the experiment, and the analysis files will contain the code mirroring the methods. 
 
 
 ## collaboration
 
-I do not need to be coauthor on every manuscript coming out of the lab, and I encourage students to research and publish independently of me. That being said, research using lab resources may be more suitable for my coauthorship, and I am happy to actively contribute to the project, or to allow the student to work independently. I also encourage students to collaborate with other scientists within LSU and outside. However, new collaborations should be discussed with me before students initiate them (if possible). 
+I do not need to be coauthor on every manuscript coming out of the lab, and I encourage students to research and publish independently of me. That being said, research using lab resources may be more suitable for my co-authorship, and I am happy to actively contribute to the project, or to allow the student to work independently. I also encourage students to collaborate with other scientists within LSU and outside. However, new collaborations should be discussed with me before students initiate them (if possible). 
 
 
 
@@ -50,6 +59,7 @@ This will change as machines get added to the lab. The current naming scheme is 
 | beast1  | Dell Precision 3630 | 1000  | 64 | 8 | Ubuntu 22.04  |
 | beast2  | Dell Precision 3630 | 1000  | 64 | 8 | Ubuntu 22.04  |
 | beast3  | Lenovo P520  | 1000  | 8 | 8 | Ubuntu 21.04  |
+| beast4  | Lenovo P520  | 1000  | 8 | 8 | Ubuntu 22.04  |
 | rainbow1  | [custom](https://pcpartpicker.com/user/taddallas/saved/#view=FptTYJ)  | 500  | 128  | 16 |  Ubuntu 21.04  |
 | rainbow2 | [custom](https://pcpartpicker.com/user/taddallas/saved/#view=FptTYJ)  | 500  | 128  | 16 | Ubuntu 21.04  |
 | office  | custom  | 1000  | 128  | 24  | Ubuntu 22.04  |
@@ -71,7 +81,7 @@ While everyone in the lab will maintain a lab notebook, the computational tools 
 Below is a list of computational tools that I would like lab members to be cognizant of. 
 
 
-+ `linux`: all lab computers will run the most current long term stable (LTS) release of Ubuntu. At least some machines will also be able to dual boot with Windows. 
++ `linux`: all lab computers will run the most current long term stable (LTS) release of Ubuntu. 
 
 + `git` and `Github`: version control is an important part of science. It allows real time progress updates, issue tracking, and version control. There are numerous guides to beginning to learn how to use git with Github [training](https://swcarpentry.github.io/git-novice-es/) and [further training](https://guides.github.com/activities/hello-world/). 
 
@@ -87,9 +97,11 @@ Below is a list of computational tools that I would like lab members to be cogni
 
 ## keeping things up-to-date 
 
-`presentations`: whenever you give a presentation (which I encourage you to do and will support your travel and conference costs for at least 1 conference per year), update the presentations file in the `labMeetingMinutes` repo (https://github.com/dallasLab/labMeetingNotes/blob/master/presentations.md). This is private, so only Dallas lab members will be able to see it. 
+`presentations`: whenever you give a presentation (which I encourage you to do and will support your travel and conference costs for at least 1 conference per year), update the `grantOutput.md` file in the `labMeetingMinutes` repo (https://github.com/dallasLab/labMeetingNotes/) and feel free to toss a pdf version of the talk in the `talks` or `posters` folder. This is private, so only Dallas lab members will be able to see it. 
 
-`publications`: get a Google scholar and/or a personal website. Both are pretty much essential as networking tools and allow you to publicize your research. 
+`publications`: get a Google scholar and/or a personal website. Both are pretty much essential as networking tools and allow you to publicize your research. Also, add the paper to the `labMeetingMinutes` repo under `grantOutput.md`. 
+
+Lab members will have access to the GitHub projects board `Manuscripts`, which will be used to keep track of ongoing projects in the lab. [Keep this updated](https://github.com/orgs/dallasLab/projects/2)
 
 
 
@@ -103,7 +115,7 @@ Below is a list of computational tools that I would like lab members to be cogni
 
 + `inkscape`: a vector graphics editor that's great for conceptual figure tweaks and image manipulation. 
 
-+ `emacs`: text editor that is pretty useful. If you want to be amused, Google 'emacs vs. vim' and read the degree of argument between camps. Perhaps a bit silly.
++ `emacs`: text editor that is pretty useful. If you want to be amused, Google 'emacs vs. vim' and read the degree of argument between camps. Perhaps a bit silly. I've used `emacs` and appreciate it, but I've largely switched over to using [vsCode](https://code.visualstudio.com/). 
 
 + `unix shell`: the shell environment makes most of the above resources easier to use, and to not require a GUI (e.g., processing LaTeX files can be done from the terminal, or from user interfaces). Version control with git can be done through the terminal, as well as batch code runs, compilation of manuscripts and analyses using `make`, and much much more. Plus, in order to submit jobs to the cluster, you'll need to use the terminal. [training](https://swcarpentry.github.io/shell-novice/)
 
