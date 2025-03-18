@@ -65,7 +65,7 @@ This will change as machines get added to the lab. The current naming scheme is 
 | office  | custom  | 1000  | 128  | 24  | Ubuntu 22.04  |
 | icebox  | [custom](https://pcpartpicker.com/user/taddallas/saved/#view=jVhrvK)  | 1000 | 128  | 16 | Ubuntu 22.04  |
 | grandpa  | super micro 733TQ chassis with old Xeon board  | 2000 (RAID5)  | 12  | 8 |  Ubuntu 22.04  |
-
+| mccausland | custom | 2000 | 386 | 256 | Ubuntu 22.04 server | 
 
 We also have lab access to the HPC cluster computing resources. Information on [HPC](https://uofsc-rc.github.io/sys-tutorial/getting-started), and [account sign up](https://sc.edu/about/offices_and_divisions/division_of_information_technology/rc/account_request/index.php)
 
